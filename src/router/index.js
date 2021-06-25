@@ -19,6 +19,26 @@ const routes = [
     path: '/alphabets',
     name: 'Alphabets',
     component: () => import('../views/Alphabets.vue')
+  },
+  {
+    path: '/numbers1',
+    name: 'Numbers1',
+    component: () => import('../views/Numbers1.vue')
+  },
+  {
+    path: '/numbers2',
+    name: 'Numbers2',
+    component: () => import('../views/Numbers2.vue')
+  },
+  {
+    path: '/numbers3',
+    name: 'Numbers3',
+    component: () => import('../views/Numbers3.vue')
+  },
+  {
+    path: '/numbers4',
+    name: 'Numbers4',
+    component: () => import('../views/Numbers4.vue')
   }
 ]
 

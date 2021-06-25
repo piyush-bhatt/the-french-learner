@@ -1,4 +1,7 @@
 <template>
+  <div class="outer-container">
+    <h2>Alphabets</h2>
+  
   <div class="alphabets-container">
     <div class="inner-container">
       <span class="vowel"><b>A</b> -> ahh</span>
@@ -33,7 +36,8 @@
       <span><b>Z</b> -> zed</span>
     </div>
   </div>
-  <Navigator prev="/introduction" />
+  </div>
+  <Navigator prev="/introduction" next="numbers1" />
 </template>
 
 <script>
@@ -45,6 +49,18 @@ export default {
 </script>
 
 <style scoped>
+.outer-container {
+  display: flex;
+  width: 100%;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+h2 {
+  font-size: 2.25em;
+  font-family: "Homemade Apple", cursive;
+}
+
 .alphabets-container {
   display: flex;
   flex-flow: row nowrap;

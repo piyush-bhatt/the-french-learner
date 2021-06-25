@@ -9,6 +9,10 @@
           <router-link to="/"><h3>Home</h3></router-link>
           <router-link to="/introduction"><h3>Introduction</h3></router-link>
           <router-link to="/alphabets"><h3>Alphabets</h3></router-link>
+          <router-link to="/numbers1"><h3>Numbers 1-30</h3></router-link>
+          <router-link to="/numbers2"><h3>Numbers 31-60</h3></router-link>
+          <router-link to="/numbers3"><h3>Numbers 61-100</h3></router-link>
+          <router-link to="/numbers4"><h3>Numbers (Periods)</h3></router-link>
         </div>
         <div class="close" @click="$emit('toggle-nav')">
           <span><b>&lt;</b></span>
