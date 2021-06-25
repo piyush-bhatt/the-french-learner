@@ -9,8 +9,6 @@ export default {
 </script>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
-
 h2 {
   font-family: 'Homemade Apple', cursive;
 }

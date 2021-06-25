@@ -1,17 +1,18 @@
 <template>
   <div>
     <Main />
+    <Navigator next="/introduction" />
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
 import Main from '@/components/Main.vue'
-
+import Navigator from '@/components/Navigator.vue'
 export default {
   name: 'Home',
   components: {
-    Main
+    Main,
+    Navigator
   }
 }
 </script>

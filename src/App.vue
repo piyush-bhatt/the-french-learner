@@ -2,8 +2,8 @@
   <div :class="[darkMode ? 'dark' : '', 'main-container']">
     <Header @toggle-theme="toggleTheme" />
     <div class="content-container">
-      <Nav />
-      <router-view/>
+      <Nav @toggle-nav="toggleNav" :isOpen="navOpen" />
+      <router-view />
     </div>
   </div>
 </template>
@@ -15,22 +15,28 @@ export default {
   name: "App",
   components: {
     Header,
-    Nav
+    Nav,
   },
   data() {
     return {
       darkMode: false,
+      navOpen: false,
     };
   },
   methods: {
     toggleTheme() {
       this.darkMode = !this.darkMode;
     },
+    toggleNav() {
+      this.navOpen = !this.navOpen;
+    },
   },
 };
 </script>
 
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap");
+
 :root {
   --text-color: #1e314f;
   --bg-color: #dee1c5;
@@ -49,12 +55,18 @@ export default {
 }
 
 .content-container {
+  height: calc(100% - 5em);
   display: flex;
 }
 
 body {
-  font-family: 'Helvetica Rounded','Montserrat', sans-serif;
+  font-family: "Helvetica Rounded", "Montserrat", sans-serif;
   padding: 0;
   margin: 0;
+}
+
+a:hover, a:visited, a:link {
+  text-decoration: none;
+  color: var(--text-color);
 }
 </style>
