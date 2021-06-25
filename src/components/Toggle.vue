@@ -43,7 +43,7 @@ export default {
   border-width: 2px;
   border-style: solid;
   border-radius: 90px - 6;
-  border-color: #81C0D5;
+  border-color: #81c0d5;
   transition: background-color 200ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
 

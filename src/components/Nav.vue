@@ -16,8 +16,8 @@
       </div>
     </transition>
     <div class="open" v-if="!isOpen" @click="$emit('toggle-nav')">
-        <span><b>&gt;</b></span>
-      </div>
+      <span><b>&gt;</b></span>
+    </div>
   </div>
 </template>
 
@@ -74,7 +74,7 @@ export default {
 
 .open,
 .close {
-  font-family: 'Homemade Apple', cursive;
+  font-family: "Homemade Apple", cursive;
   color: var(--bg-color);
   background-color: var(--text-color);
   width: 2em;

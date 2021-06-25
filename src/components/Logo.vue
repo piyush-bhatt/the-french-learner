@@ -10,6 +10,6 @@ export default {
 
 <style scoped>
 h2 {
-  font-family: 'Homemade Apple', cursive;
+  font-family: "Homemade Apple", cursive;
 }
 </style>

@@ -7,7 +7,7 @@
 
 <script>
 import Toggle from "./Toggle.vue";
-import Logo from './Logo.vue'
+import Logo from "./Logo.vue";
 export default {
   name: "Header",
   components: { Logo, Toggle },

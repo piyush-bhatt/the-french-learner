@@ -65,7 +65,9 @@ body {
   margin: 0;
 }
 
-a:hover, a:visited, a:link {
+a:hover,
+a:visited,
+a:link {
   text-decoration: none;
   color: var(--text-color);
 }
