@@ -13,6 +13,9 @@
           <router-link to="/numbers2"><h3>Numbers 31-60</h3></router-link>
           <router-link to="/numbers3"><h3>Numbers 61-100</h3></router-link>
           <router-link to="/numbers4"><h3>Numbers (Periods)</h3></router-link>
+          <router-link to="/days"><h3>Days of the Week</h3></router-link>
+          <router-link to="/months"><h3>Months of the Year</h3></router-link>
+          <router-link to="/seasons"><h3>Seasons / Weather</h3></router-link>
         </div>
         <div class="close" @click="$emit('toggle-nav')">
           <span><b>&lt;</b></span>

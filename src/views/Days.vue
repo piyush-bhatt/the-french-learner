@@ -1,27 +1,29 @@
 <template>
   <div class="outer-container">
-    <h2>Numbers (Periods)</h2>
-    <div class="numbers-container">
+    <h2>Days of the week</h2>
+    <div class="days-container">
       <div class="inner-container">
-        <span><b>0</b> -> zéro</span>
-        <span><b>10</b> -> dix</span>
+        <span><b>Lundi</b> -> Monday</span>
+        <span><b>Mardi</b> -> Tuesday</span>
       </div>
       <div class="inner-container">
-        <span><b>100</b> -> cent</span>
-        <span><b>1 000</b> -> mille</span>
+        <span><b>Mercredi</b> -> Wednesday</span>
+        <span><b>Jeudi</b> -> Thursday</span>
+        <span><b>Vendredi</b> -> Friday</span>
       </div>
       <div class="inner-container">
-        <span><b>1 000 000</b> -> un million</span>
+        <span class="weekend"><b>Samedi</b> -> Saturday</span>
+        <span class="weekend"><b>Dimanche</b> -> Sunday</span>
       </div>
     </div>
   </div>
-  <Navigator prev="/numbers3" next="/days" />
+  <Navigator prev="/numbers4" next="/months" />
 </template>
 
 <script>
 import Navigator from "@/components/Navigator.vue";
 export default {
-  name: "Numbers4",
+  name: "Days",
   components: { Navigator },
 };
 </script>
@@ -39,7 +41,7 @@ h2 {
   font-family: "Homemade Apple", cursive;
 }
 
-.numbers-container {
+.days-container {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-evenly;
@@ -56,5 +58,9 @@ h2 {
   align-items: flex-start;
   font-size: 2em;
   line-height: 2.25em;
+}
+
+.weekend {
+  color: rgb(255, 100, 126);
 }
 </style>

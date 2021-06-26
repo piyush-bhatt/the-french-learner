@@ -1,27 +1,34 @@
 <template>
   <div class="outer-container">
-    <h2>Numbers (Periods)</h2>
-    <div class="numbers-container">
+    <h2>Months of the year</h2>
+    <div class="months-container">
       <div class="inner-container">
-        <span><b>0</b> -> zéro</span>
-        <span><b>10</b> -> dix</span>
+        <span><b>Janvier</b> -> January</span>
+        <span><b>Février</b> -> February</span>
+        <span><b>Mars</b> -> March</span>
+        <span><b>Avril</b> -> April</span>
       </div>
       <div class="inner-container">
-        <span><b>100</b> -> cent</span>
-        <span><b>1 000</b> -> mille</span>
+        <span><b>Mai</b> -> May</span>
+        <span><b>Juin</b> -> June</span>
+        <span><b>Julliet</b> -> July</span>
+        <span><b>Août</b> -> August</span>
       </div>
       <div class="inner-container">
-        <span><b>1 000 000</b> -> un million</span>
+        <span><b>Septembre</b> -> September</span>
+        <span><b>Octobre</b> -> October</span>
+        <span><b>Novembre</b> -> November</span>
+        <span><b>Décembre</b> -> December</span>
       </div>
     </div>
   </div>
-  <Navigator prev="/numbers3" next="/days" />
+  <Navigator prev="/days" next="/seasons" />
 </template>
 
 <script>
 import Navigator from "@/components/Navigator.vue";
 export default {
-  name: "Numbers4",
+  name: "Months",
   components: { Navigator },
 };
 </script>
@@ -39,7 +46,7 @@ h2 {
   font-family: "Homemade Apple", cursive;
 }
 
-.numbers-container {
+.months-container {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-evenly;
