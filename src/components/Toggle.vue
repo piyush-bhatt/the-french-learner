@@ -158,8 +158,8 @@ export default {
 
 input:checked {
   + .toggle {
-    background-color: #16253c;
-    border-color: #121e30;
+    background-color: #1e314f;
+    border-color: #192a44;
 
     .toggle__handler {
       background-color: #dee1c5;

@@ -44,7 +44,7 @@ export default {
 
 .dark {
   --text-color: #dee1c5;
-  --bg-color: #1e314f;
+  --bg-color: #0d1522;
 }
 
 .main-container {

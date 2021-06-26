@@ -64,7 +64,7 @@ h2 {
   justify-content: space-around;
   align-items: flex-start;
   font-size: 2em;
-  line-height: 2.25em;
+  line-height: 2em;
 }
 
 .weekend {

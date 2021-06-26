@@ -61,6 +61,16 @@ const routes = [
     name: "Pronouns",
     component: () => import("../views/Pronouns.vue"),
   },
+  {
+    path: "/greetings",
+    name: "Greetings",
+    component: () => import("../views/Greetings.vue"),
+  },
+  {
+    path: "/directions",
+    name: "Directions",
+    component: () => import("../views/Directions.vue"),
+  },
 ];
 
 const router = createRouter({

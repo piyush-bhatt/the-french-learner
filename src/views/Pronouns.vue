@@ -27,7 +27,7 @@
       </div>
     </div>
   </div>
-  <Navigator prev="/seasons" next="" />
+  <Navigator prev="/seasons" next="/greetings" />
 </template>
 
 <script>
@@ -66,6 +66,6 @@ h2 {
   justify-content: space-around;
   align-items: flex-start;
   font-size: 2em;
-  line-height: 2.25em;
+  line-height: 2em;
 }
 </style>

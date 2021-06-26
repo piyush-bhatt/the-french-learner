@@ -17,6 +17,8 @@
           <router-link to="/months"><h3>Months of the Year</h3></router-link>
           <router-link to="/seasons"><h3>Seasons / Weather</h3></router-link>
           <router-link to="/pronouns"><h3>Pronouns</h3></router-link>
+          <router-link to="/greetings"><h3>Greetings</h3></router-link>
+          <router-link to="/directions"><h3>Directions</h3></router-link>
         </div>
         <div class="close" @click="$emit('toggle-nav')">
           <span><b>&lt;</b></span>
