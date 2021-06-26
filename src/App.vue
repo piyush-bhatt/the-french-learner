@@ -1,8 +1,8 @@
 <template>
   <div :class="[darkMode ? 'dark' : '', 'main-container']">
     <Header @toggle-theme="toggleTheme" />
+    <Nav @toggle-nav="toggleNav" :isOpen="navOpen" />
     <div class="content-container">
-      <Nav @toggle-nav="toggleNav" :isOpen="navOpen" />
       <router-view />
     </div>
   </div>
@@ -57,6 +57,7 @@ export default {
 .content-container {
   height: calc(100% - 5em);
   display: flex;
+  z-index: 1;
 }
 
 body {

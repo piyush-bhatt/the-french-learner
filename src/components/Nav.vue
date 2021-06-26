@@ -16,6 +16,7 @@
           <router-link to="/days"><h3>Days of the Week</h3></router-link>
           <router-link to="/months"><h3>Months of the Year</h3></router-link>
           <router-link to="/seasons"><h3>Seasons / Weather</h3></router-link>
+          <router-link to="/pronouns"><h3>Pronouns</h3></router-link>
         </div>
         <div class="close" @click="$emit('toggle-nav')">
           <span><b>&lt;</b></span>
@@ -72,7 +73,12 @@ export default {
 }
 
 .nav-container {
-  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 5em;
+  background-color: var(--bg-color);
+  z-index: 2;
+  height: calc(100% - 5em);
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-start;

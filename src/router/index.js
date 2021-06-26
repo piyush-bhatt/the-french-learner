@@ -56,6 +56,11 @@ const routes = [
     name: "Seasons",
     component: () => import("../views/Seasons.vue"),
   },
+  {
+    path: "/pronouns",
+    name: "Pronouns",
+    component: () => import("../views/Pronouns.vue"),
+  },
 ];
 
 const router = createRouter({

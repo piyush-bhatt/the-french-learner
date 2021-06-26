@@ -1,37 +1,39 @@
 <template>
   <div class="outer-container">
-    <h2>Seasons</h2>
-    <div class="seasons-container">
+    <h2>Subject Pronouns</h2>
+    <div class="pronouns-container">
       <div class="inner-container">
-        <span><b>Le printemps</b> -> Spring</span>
-        <span><b>L'été</b> -> Summer</span>
+        <span><b>Je</b> -> I</span>
+        <span><b>Tu</b> -> You (informal)</span>
+        <span><b>Il / Elle / On</b> -> He / She / We (one / informal)</span>
       </div>
       <div class="inner-container">
-        <span><b>L'automne</b> -> Autumn</span>
-        <span><b>L'hiver</b> -> Winter</span>
+        <span><b>Nous</b> -> We</span>
+        <span><b>Vous</b> -> You (formal / plural)</span>
+        <span><b>Ils / Elles</b> -> They</span>
       </div>
     </div>
-    <h2>Weather (Quel temp fait-il ?)</h2>
-    <div class="seasons-container">
+    <h2>Stressed Pronouns</h2>
+    <div class="pronouns-container">
       <div class="inner-container">
-        <span><b>Il y a du soleil</b> -> It's sunny</span>
-        <span><b>Il fait beau</b> -> It's sunny</span>
-        <span><b>Il fait chaud</b> -> It's hot</span>
+        <span><b>Moi</b> -> Me</span>
+        <span><b>Toi</b> -> You (informal)</span>
+        <span><b>Lui / Elle</b> -> Him / Her</span>
       </div>
       <div class="inner-container">
-        <span><b>Il fait froid</b> -> It's cold</span>
-        <span><b>Il pleut</b> -> It's raining</span>
-        <span><b>Il y a des nuages</b> -> It's snowy</span>
+        <span><b>Nous</b> -> We</span>
+        <span><b>Vous</b> -> You (formal / plural)</span>
+        <span><b>Eux / Elles</b> -> Them</span>
       </div>
     </div>
   </div>
-  <Navigator prev="/months" next="/pronouns" />
+  <Navigator prev="/seasons" next="" />
 </template>
 
 <script>
 import Navigator from "@/components/Navigator.vue";
 export default {
-  name: "Seasons",
+  name: "Pronouns",
   components: { Navigator },
 };
 </script>
@@ -49,7 +51,7 @@ h2 {
   font-family: "Homemade Apple", cursive;
 }
 
-.seasons-container {
+.pronouns-container {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-evenly;
@@ -65,9 +67,5 @@ h2 {
   align-items: flex-start;
   font-size: 2em;
   line-height: 2.25em;
-}
-
-.weekend {
-  color: rgb(255, 100, 126);
 }
 </style>
