@@ -19,6 +19,12 @@
           <router-link to="/pronouns"><h3>Pronouns</h3></router-link>
           <router-link to="/greetings"><h3>Greetings</h3></router-link>
           <router-link to="/directions"><h3>Directions</h3></router-link>
+          <router-link to="/indefiniteArticles"
+            ><h3>Indefinite Articles</h3></router-link
+          >
+          <router-link to="/definiteArticles"
+            ><h3>Definite Articles</h3></router-link
+          >
         </div>
         <div class="close" @click="$emit('toggle-nav')">
           <span><b>&lt;</b></span>
@@ -48,6 +54,7 @@ export default {
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: flex-start;
+  overflow: auto;
 }
 
 .items-container {

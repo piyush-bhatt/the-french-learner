@@ -23,7 +23,7 @@
       </div>
     </div>
   </div>
-  <Navigator prev="/greetings" next="" />
+  <Navigator prev="/greetings" next="/indefiniteArticles" />
 </template>
 
 <script>

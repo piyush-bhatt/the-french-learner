@@ -71,6 +71,16 @@ const routes = [
     name: "Directions",
     component: () => import("../views/Directions.vue"),
   },
+  {
+    path: "/indefiniteArticles",
+    name: "IndefiniteArticles",
+    component: () => import("../views/IndefiniteArticles.vue"),
+  },
+  {
+    path: "/definiteArticles",
+    name: "DefiniteArticles",
+    component: () => import("../views/DefiniteArticles.vue"),
+  },
 ];
 
 const router = createRouter({
