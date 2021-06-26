@@ -81,6 +81,11 @@ const routes = [
     name: "DefiniteArticles",
     component: () => import("../views/DefiniteArticles.vue"),
   },
+  {
+    path: "/verbGroups",
+    name: "VerbGroups",
+    component: () => import("../views/VerbGroups.vue"),
+  },
 ];
 
 const router = createRouter({

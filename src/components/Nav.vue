@@ -25,6 +25,7 @@
           <router-link to="/definiteArticles"
             ><h3>Definite Articles</h3></router-link
           >
+          <router-link to="/verbGroups"><h3>Verb Groups</h3></router-link>
         </div>
         <div class="close" @click="$emit('toggle-nav')">
           <span><b>&lt;</b></span>

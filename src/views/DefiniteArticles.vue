@@ -26,7 +26,7 @@
       </div>
     </div>
   </div>
-  <Navigator prev="/indefiniteArticles" next="" />
+  <Navigator prev="/indefiniteArticles" next="/verbGroups" />
 </template>
 
 <script>
