@@ -31,6 +31,7 @@
           <router-link to="/verbGroup3"
             ><h3>Group 3 (Irregular)</h3></router-link
           >
+          <router-link to="/etreAvoir"><h3>Être and Avoir</h3></router-link>
           <router-link to="/usefulVerbs1"
             ><h3>Useful Verbs - I</h3></router-link
           >

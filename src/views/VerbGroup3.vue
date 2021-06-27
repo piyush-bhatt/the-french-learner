@@ -81,7 +81,7 @@
       </div>
     </div>
   </div>
-  <Navigator prev="/verbGroup2" next="/usefulVerbs1" />
+  <Navigator prev="/verbGroup2" next="/etreAvoir" />
 </template>
 
 <script>

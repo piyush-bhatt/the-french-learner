@@ -111,6 +111,11 @@ const routes = [
     name: "UsefulVerbs2",
     component: () => import("../views/UsefulVerbs2.vue"),
   },
+  {
+    path: "/etreAvoir",
+    name: "EtreAvoir",
+    component: () => import("../views/EtreAvoir.vue"),
+  },
 ];
 
 const router = createRouter({
