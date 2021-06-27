@@ -101,6 +101,16 @@ const routes = [
     name: "VerbGroup3",
     component: () => import("../views/VerbGroup3.vue"),
   },
+  {
+    path: "/usefulVerbs1",
+    name: "UsefulVerbs1",
+    component: () => import("../views/UsefulVerbs1.vue"),
+  },
+  {
+    path: "/usefulVerbs2",
+    name: "UsefulVerbs2",
+    component: () => import("../views/UsefulVerbs2.vue"),
+  },
 ];
 
 const router = createRouter({

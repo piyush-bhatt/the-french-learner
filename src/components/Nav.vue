@@ -31,6 +31,12 @@
           <router-link to="/verbGroup3"
             ><h3>Group 3 (Irregular)</h3></router-link
           >
+          <router-link to="/usefulVerbs1"
+            ><h3>Useful Verbs - I</h3></router-link
+          >
+          <router-link to="/usefulVerbs2"
+            ><h3>Useful Verbs - II</h3></router-link
+          >
         </div>
         <div class="close" @click="$emit('toggle-nav')">
           <span><b>&lt;</b></span>
