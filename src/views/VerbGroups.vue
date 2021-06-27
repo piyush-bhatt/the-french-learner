@@ -43,7 +43,7 @@
       </div>
     </div>
   </div>
-  <Navigator prev="/definiteArticles" next="" />
+  <Navigator prev="/definiteArticles" next="/verbGroup1" />
 </template>
 
 <script>

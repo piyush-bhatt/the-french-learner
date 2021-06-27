@@ -26,6 +26,11 @@
             ><h3>Definite Articles</h3></router-link
           >
           <router-link to="/verbGroups"><h3>Verb Groups</h3></router-link>
+          <router-link to="/verbGroup1"><h3>Group 1 (-ER)</h3></router-link>
+          <router-link to="/verbGroup2"><h3>Group 2 (-IR)</h3></router-link>
+          <router-link to="/verbGroup3"
+            ><h3>Group 3 (Irregular)</h3></router-link
+          >
         </div>
         <div class="close" @click="$emit('toggle-nav')">
           <span><b>&lt;</b></span>
