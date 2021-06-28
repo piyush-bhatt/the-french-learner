@@ -60,7 +60,7 @@
       </div>
     </div>
   </div>
-  <Navigator prev="/usefulVerbs1" next="" />
+  <Navigator prev="/usefulVerbs1" next="/prepositions" />
 </template>
 
 <script>

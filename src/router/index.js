@@ -116,6 +116,11 @@ const routes = [
     name: "EtreAvoir",
     component: () => import("../views/EtreAvoir.vue"),
   },
+  {
+    path: "/prepositions",
+    name: "Prepositions",
+    component: () => import("../views/Prepositions.vue"),
+  },
 ];
 
 const router = createRouter({
