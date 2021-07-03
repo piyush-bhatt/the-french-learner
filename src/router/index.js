@@ -121,6 +121,16 @@ const routes = [
     name: "Prepositions",
     component: () => import("../views/Prepositions.vue"),
   },
+  {
+    path: "/possesiveAdjectives",
+    name: "PossesiveAdjectives",
+    component: () => import("../views/PossesiveAdjectives.vue"),
+  },
+  {
+    path: "/demonstrativeAdjectives",
+    name: "DemonstrativeAdjectives",
+    component: () => import("../views/DemonstrativeAdjectives.vue"),
+  },
 ];
 
 const router = createRouter({

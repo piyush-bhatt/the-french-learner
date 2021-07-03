@@ -51,7 +51,7 @@
       </div>
     </div>
   </div>
-  <Navigator prev="/usefulVerbs2" next="" />
+  <Navigator prev="/usefulVerbs2" next="/possesiveAdjectives" />
 </template>
 
 <script>

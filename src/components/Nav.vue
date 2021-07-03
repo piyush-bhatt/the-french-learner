@@ -39,6 +39,8 @@
             ><h3>Useful Verbs - II</h3></router-link
           >
           <router-link to="/prepositions"><h3>Prepositions</h3></router-link>
+          <router-link to="/possesiveAdjectives"><h3>Possesive Adjectives</h3></router-link>
+          <router-link to="/demonstrativeAdjectives"><h3>Demonstrative Adjectives</h3></router-link>
         </div>
         <div class="close" @click="$emit('toggle-nav')">
           <span><b>&lt;</b></span>
